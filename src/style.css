@@ -1,0 +1,48 @@
+#Heading_style{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(75, 138, 206);
+    height: 100vh;
+}
+html {
+    height:max-content;
+    
+}
+
+.centre_style{
+    border: 2px solid midnightblue;
+    box-shadow: 5px 5px 10px  midnightblue;
+    width: 300px;
+    height:auto;
+}
+.todo_form{
+    border: 5px;
+    border-style: outset;
+    border-color: royalblue;
+    display: flex;
+    justify-content: center;
+}
+.todo_filter_style{
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+}
+.todo_list{
+  height: 200px;
+
+}
+.checkbox_style{
+  width: 300px;
+  height: 30px;
+  font-size: medium;
+}
+#button_style{
+    position: relative;
+}
